@@ -83,10 +83,10 @@
 
     if (isset($_POST['Update_Alarm'])) {
 
-        $host = 'localhost';
-        $username = 'root';
+        $host = '';
+        $username = '';
         $password = '';
-        $db = 'aska_db';
+        $db = '';
         $res = mysql_connect($host, $username, $password);
         if (!$res)
             die('Could not connect to the server, mysql error: ' . mysql_error($res));
